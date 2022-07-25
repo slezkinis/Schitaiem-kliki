@@ -19,17 +19,15 @@ pip install -r requirements.txt
 
 1. Укорачивание ссылок:
 Нужно ввести команду в терминал. Например:
-`python main.py https://yandex.ru/`
-
+`python main.py https://yandex.ru/`.
 Вывод будет примерно таким:
-`Битлинк: https://bit.ly/3OvMqRd`
+`Битлинк: https://bit.ly/3OvMqRd`.
 
 2. Получение количества переходов по короткой ссылке:
 Нужно ввести коману в терминале. Например:
-`python main.py https://bit.ly/3OvMqRd`
-
+`python main.py https://bit.ly/3OvMqRd`.
 Вывод будет примерно таким:
-`Число кликов: 1`
+`Число кликов: 1`.
 
 ### Цель проекта
 
