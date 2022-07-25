@@ -4,7 +4,6 @@ import argparse
 
 import urllib.parse
 from dotenv import load_dotenv
-load_dotenv()
 
 
 def shorten_link(bitlink_token, long_url):
@@ -48,6 +47,7 @@ def is_bitlink(user_url, bitlink_token):
 
 
 if __name__ == '__main__':
+    load_dotenv()
     parser = argparse.ArgumentParser(
         description='Программа конвертирует ссылки'
     )
